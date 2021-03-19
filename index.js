@@ -1,10 +1,3 @@
-console.log("Hello world 1")
-console.log("Hello world 2")
-console.log("Hello world 3")
-console.log("Hello world 4")
-console.log("Hello world 5")
-console.log("Hello world 6")
-console.log("Hello world 7")
-console.log("Hello world 8")
-console.log("Hello world 9")
-console.log("Hello world 10")
+for (let i = 0; i < 10; i++) {
+ console.log(`Hello world ${i+1}`)
+}
